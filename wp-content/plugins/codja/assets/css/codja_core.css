@@ -1,0 +1,49 @@
+div[id^=codja] li,
+div[id^=codja] th span {
+	cursor: pointer;
+}
+
+div[id^=codja] ul {
+	width: 100%;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+div[id^=codja] ul li {
+	display: inline-block;
+	padding: 5px 14px;
+	border: 1px solid #dddddd;
+}
+
+div[id^=codja] .active {
+	color: green;
+	border-color: green;
+}
+
+div[id^=codja] table {
+	width: 100%;
+	text-align: left;
+	background-color: #f7f7f7;
+	border-spacing: 0;
+	border: 1px solid #dcdcdc;
+}
+
+div[id^=codja] th {
+	background-color: #eee;
+}
+
+div[id^=codja] th,
+div[id^=codja] td {
+	padding: 10px 14px;
+}
+
+div[id^=codja] td {
+	border-width: 1px 0 0;
+	border-color: #dddddd;
+	border-style: solid;
+}
+
+div[id^=codja] i {
+	margin-right: 7px;
+}
